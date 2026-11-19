@@ -1,0 +1,424 @@
+<!doctype html>
+<html lang="de" class="no-js">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>CC Nails · Nagelstudio Kreuzlingen</title>
+  <meta name="description" content="CC Nails – Nagelstudio an der Hauptstraße 49B in Kreuzlingen. Maniküre, Gel-Modellage, Nail Art, Pediküre und Wimpern. Termin per Telefon oder WhatsApp.">
+  <meta name="theme-color" content="#B88A4A">
+  <meta property="og:title" content="CC Nails · Nagelstudio Kreuzlingen">
+  <meta property="og:description" content="Wir kümmern uns um die Schönheit Ihrer Nägel und Füße.">
+  <meta property="og:image" content="assets/img/hero.jpg">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='32' fill='%23B88A4A'/%3E%3Ctext x='32' y='41' font-family='Georgia,serif' font-size='26' text-anchor='middle' fill='%23302219'%3ECC%3C/text%3E%3C/svg%3E">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400;1,500&family=Manrope:wght@300;400;500;600&display=swap" rel="stylesheet">
+  <link rel="preload" as="image" href="assets/img/hero.jpg">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+  <a class="skip" href="#main">Zum Inhalt springen</a>
+
+  <!-- ============ INTRO CURTAIN ============ -->
+  <div class="intro" id="intro" aria-hidden="true">
+    <div class="intro__panel intro__panel--a"></div>
+    <div class="intro__panel intro__panel--b"></div>
+    <div class="intro__mark">
+      <span class="intro__cc">CC</span>
+      <span class="intro__line"></span>
+      <span class="intro__word">Nails · Kreuzlingen</span>
+    </div>
+  </div>
+
+  <div class="progress" id="progress" aria-hidden="true"></div>
+
+  <!-- ============ NAVIGATION ============ -->
+  <header class="nav" id="nav">
+    <div class="nav__inner">
+      <a href="#top" class="logo" aria-label="CC Nails – Startseite">
+        <span class="logo__mark">CC</span><span class="logo__word">Nails</span>
+      </a>
+      <nav class="nav__links" aria-label="Hauptnavigation">
+        <a href="#studio">Studio</a>
+        <a href="#leistungen">Leistungen</a>
+        <a href="#signature">Favoriten</a>
+        <a href="#galerie">Galerie</a>
+        <a href="#kontakt">Kontakt</a>
+      </nav>
+      <a class="btn btn--nav magnetic" href="https://wa.me/41783246299" target="_blank" rel="noopener"><span>Termin buchen</span></a>
+      <button class="nav__toggle" id="navToggle" aria-label="Menü öffnen" aria-expanded="false" aria-controls="mobileMenu">
+        <span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <div class="mobile-menu" id="mobileMenu" hidden>
+    <nav aria-label="Mobile Navigation">
+      <a href="#studio"><i>01</i>Studio</a>
+      <a href="#leistungen"><i>02</i>Leistungen</a>
+      <a href="#signature"><i>03</i>Favoriten</a>
+      <a href="#galerie"><i>04</i>Galerie</a>
+      <a href="#kontakt"><i>05</i>Kontakt</a>
+    </nav>
+    <div class="mobile-menu__foot">
+      <a class="btn btn--dark" href="https://wa.me/41783246299" target="_blank" rel="noopener"><span>Termin via WhatsApp</span></a>
+      <p>Hauptstraße 49B · 8280 Kreuzlingen</p>
+    </div>
+  </div>
+
+  <main id="main">
+
+    <!-- ============ HERO (champagne gold) ============ -->
+    <section class="hero gold-surface" id="top">
+      <canvas class="hero__dust" id="dust" aria-hidden="true"></canvas>
+      <div class="hero__spot" id="spot" aria-hidden="true"></div>
+
+      <div class="container hero__grid">
+        <div class="hero__copy">
+          <p class="eyebrow eyebrow--dark enter" style="--d:.1s">Nagelstudio · Kreuzlingen</p>
+          <h1 class="hero__title">
+            <span class="line"><span class="enter-up" style="--d:.15s">Die Kunst</span></span>
+            <span class="line"><span class="enter-up" style="--d:.3s"><em class="shimmer">gepflegter</em></span></span>
+            <span class="line"><span class="enter-up" style="--d:.45s">Hände.</span></span>
+          </h1>
+          <p class="hero__lead enter" style="--d:.7s">Wir kümmern uns um die Schönheit Ihrer Nägel und Füße – mit ruhiger Hand, einem Auge für feine Details und Zeit nur für Sie.</p>
+          <div class="hero__actions enter" style="--d:.85s">
+            <a class="btn btn--dark magnetic" href="https://wa.me/41783246299" target="_blank" rel="noopener"><span>Termin via WhatsApp</span></a>
+            <a class="btn btn--outline-dark magnetic" href="#signature"><span>Unsere Favoriten</span></a>
+          </div>
+        </div>
+
+        <div class="hero__visual enter enter--fade" style="--d:.25s" id="heroVisual">
+          <div class="hero__slats" data-depth="10" aria-hidden="true"></div>
+          <figure class="arch hero__arch" data-depth="20">
+            <img src="assets/img/hero.jpg" width="1515" height="1600" alt="Mandelförmige Nägel in Nude mit feiner weisser Linien-Malerei">
+          </figure>
+          <figure class="hero__orb" data-depth="38">
+            <img src="assets/img/bronze-sm.jpg" width="540" height="720" alt="Kupfer-Bronze Nägel mit Glitzer-Akzent">
+          </figure>
+          <div class="hero__badge" data-depth="30" aria-hidden="true">
+            <svg viewBox="0 0 200 200">
+              <defs><path id="ring" d="M100,100 m-74,0 a74,74 0 1,1 148,0 a74,74 0 1,1 -148,0"/></defs>
+              <text><textPath href="#ring">NAIL ART · MANIKÜRE · PEDIKÜRE · WIMPERN ·</textPath></text>
+            </svg>
+            <span>CC</span>
+          </div>
+          <svg class="hero__arc" viewBox="0 0 200 200" aria-hidden="true"><path d="M10 190 V100 A90 90 0 0 1 190 100 V190" fill="none" stroke="currentColor" stroke-width=".7"/></svg>
+        </div>
+      </div>
+
+      <div class="container hero__bar enter" style="--d:1s">
+        <div><span class="hero__bar-k">Adresse</span><span>Hauptstraße 49B, 8280 Kreuzlingen</span></div>
+        <div><span class="hero__bar-k">Öffnungszeiten</span><span>Mo–Fr 09–19 · Sa 09–18 Uhr</span></div>
+        <div><span class="hero__bar-k">Telefon</span><a href="tel:+41715544211">+41 71 554 42 11</a></div>
+      </div>
+    </section>
+
+    <!-- ============ MARQUEE (espresso) ============ -->
+    <div class="marquee" aria-hidden="true">
+      <div class="marquee__track">
+        <span>Maniküre</span><b>✦</b><span><em>Gel &amp; Modellage</em></span><b>✦</b><span>Nail Art</span><b>✦</b><span><em>Pediküre</em></span><b>✦</b><span>Wimpern</span><b>✦</b>
+        <span>Maniküre</span><b>✦</b><span><em>Gel &amp; Modellage</em></span><b>✦</b><span>Nail Art</span><b>✦</b><span><em>Pediküre</em></span><b>✦</b><span>Wimpern</span><b>✦</b>
+      </div>
+    </div>
+
+    <!-- ============ STUDIO (ivory) ============ -->
+    <section class="section studio" id="studio">
+      <div class="container studio__grid">
+        <div class="studio__media">
+          <figure class="arch arch--soft studio__arch reveal-img">
+            <img src="assets/img/latte.jpg" width="1600" height="1200" loading="lazy" alt="Nägel in Latte-Beige mit handgemalten Herzen in Schokobraun">
+          </figure>
+          <figure class="studio__inset reveal-img" style="--d:.25s">
+            <img src="assets/img/pearl-sm.jpg" width="540" height="720" loading="lazy" alt="Lange Mandelnägel mit Perlmutt-Chrome">
+          </figure>
+          <span class="studio__ring" aria-hidden="true"></span>
+        </div>
+        <div class="studio__copy">
+          <p class="eyebrow reveal">Das Studio</p>
+          <h2 class="h2 reveal">Ein ruhiger Moment&nbsp;–<br><em>mitten in Kreuzlingen.</em></h2>
+          <p class="lead reveal">Bei CC Nails steht nicht die Uhr im Mittelpunkt, sondern Sie. Jede Behandlung beginnt mit einem Gespräch über Form, Länge und Farbe – und endet mit Nägeln, die zu Ihnen passen.</p>
+          <p class="reveal">Ob zeitlos natürlich, klassisch French oder ausdrucksstarke Nail Art: Wir arbeiten sorgfältig, sauber und mit Liebe zum Detail. Damit Sie sich nicht nur über das Ergebnis freuen, sondern auch über die Zeit bei uns.</p>
+          <ul class="pillars">
+            <li class="reveal"><span class="pillars__n">I</span><strong>Handarbeit</strong><span>Jedes Design entsteht individuell – von feinen Linien bis zur 3D-Blüte.</span></li>
+            <li class="reveal"><span class="pillars__n">II</span><strong>Hygiene</strong><span>Saubere Instrumente und ein gepflegter Arbeitsplatz für jede Kundin.</span></li>
+            <li class="reveal"><span class="pillars__n">III</span><strong>Beratung</strong><span>Ehrliche Empfehlungen zu Form, Länge und Farbe – passend zu Ihrem Alltag.</span></li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ LEISTUNGEN (champagne gold) ============ -->
+    <section class="section services gold-surface" id="leistungen">
+      <div class="container">
+        <div class="section-head reveal">
+          <p class="eyebrow eyebrow--dark">Leistungen</p>
+          <h2 class="h2 h2--on-gold">Pflege, Form <em>&amp; Farbe.</em></h2>
+        </div>
+
+        <div class="services__grid">
+          <ol class="services__list" id="serviceList">
+            <li class="service reveal" data-img="assets/img/french.jpg">
+              <span class="service__n">01</span>
+              <div class="service__body">
+                <h3>Maniküre</h3>
+                <p>Formen, Nagelhautpflege und ein makelloser Abschluss – die klassische Pflege für gepflegte Hände.</p>
+              </div>
+              <img class="service__thumb" src="assets/img/french-sm.jpg" alt="" loading="lazy">
+            </li>
+            <li class="service reveal" data-img="assets/img/pearl.jpg">
+              <span class="service__n">02</span>
+              <div class="service__body">
+                <h3>Gel &amp; Modellage</h3>
+                <p>Verlängerung oder Verstärkung mit Gel – natürlich wirkend, belastbar und perfekt in Form gebracht.</p>
+              </div>
+              <img class="service__thumb" src="assets/img/pearl-sm.jpg" alt="" loading="lazy">
+            </li>
+            <li class="service reveal" data-img="assets/img/art-black.jpg">
+              <span class="service__n">03</span>
+              <div class="service__body">
+                <h3>Nail Art</h3>
+                <p>Handgemalte Blüten und Linien, Chrome, Cat-Eye und Ombré – individuell für Sie gestaltet.</p>
+              </div>
+              <img class="service__thumb" src="assets/img/art-black-sm.jpg" alt="" loading="lazy">
+            </li>
+            <li class="service reveal" data-img="assets/img/pedicure.jpg">
+              <span class="service__n">04</span>
+              <div class="service__body">
+                <h3>Pediküre</h3>
+                <p>Gründliche Pflege und Farbe für schöne Füße – ein Moment zum Zurücklehnen.</p>
+              </div>
+              <img class="service__thumb" src="assets/img/pedicure-sm.jpg" alt="" loading="lazy">
+            </li>
+            <li class="service reveal" data-img="assets/img/lashes.jpg">
+              <span class="service__n">05</span>
+              <div class="service__body">
+                <h3>Wimpern</h3>
+                <p>Wimpernverlängerung für einen natürlichen bis ausdrucksstarken Blick.</p>
+              </div>
+              <img class="service__thumb" src="assets/img/lashes-sm.jpg" alt="" loading="lazy">
+            </li>
+          </ol>
+
+          <div class="services__preview" aria-hidden="true">
+            <figure class="arch services__arch">
+              <img id="servicePreview" src="assets/img/french.jpg" alt="">
+            </figure>
+            <span class="services__count" id="serviceCount">01</span>
+          </div>
+        </div>
+
+        <div class="services__foot reveal">
+          <p>Preise und Dauer der Behandlungen besprechen wir gerne <em>persönlich mit Ihnen.</em></p>
+          <a class="btn btn--gold magnetic" href="https://wa.me/41783246299" target="_blank" rel="noopener"><span>Beratung anfragen</span></a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ SIGNATURE LOOKS (espresso, new) ============ -->
+    <section class="signature" id="signature">
+      <div class="signature__glow" aria-hidden="true"></div>
+      <div class="container signature__head">
+        <div>
+          <p class="eyebrow eyebrow--gold reveal">Ausgewählte Designs</p>
+          <h2 class="h2 h2--light reveal">Unsere <em class="shimmer shimmer--gold">Lieblinge.</em></h2>
+        </div>
+        <div class="signature__ctrl reveal">
+          <button class="round-btn" id="sigPrev" aria-label="Zurück"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M15 4l-8 8 8 8"/></svg></button>
+          <button class="round-btn" id="sigNext" aria-label="Weiter"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M9 4l8 8-8 8"/></svg></button>
+        </div>
+      </div>
+
+      <div class="sig-track" id="sigTrack" tabindex="0" aria-label="Ausgewählte Designs – horizontal scrollen">
+        <article class="sig-card">
+          <figure class="arch sig-card__img"><img src="assets/img/g-029-sm.jpg" width="682" height="720" loading="lazy" alt="Nude Mandelnägel mit weisser Linien-Malerei"></figure>
+          <span class="sig-card__n">01</span><h3>Elfenbein-Linien</h3><p>Nude · Handmalerei</p>
+        </article>
+        <article class="sig-card">
+          <figure class="arch sig-card__img"><img src="assets/img/g-020-sm.jpg" width="540" height="720" loading="lazy" alt="Kupfer-Bronze Nägel mit Glitzer"></figure>
+          <span class="sig-card__n">02</span><h3>Bronzeglanz</h3><p>Metallic · Glitzer-Akzent</p>
+        </article>
+        <article class="sig-card">
+          <figure class="arch sig-card__img"><img src="assets/img/g-031-sm.jpg" width="540" height="720" loading="lazy" alt="Lange Mandelnägel mit Perlmutt-Chrome"></figure>
+          <span class="sig-card__n">03</span><h3>Perlmutt-Chrome</h3><p>Chrome · Mandelform</p>
+        </article>
+        <article class="sig-card">
+          <figure class="arch sig-card__img"><img src="assets/img/g-042-sm.jpg" width="720" height="584" loading="lazy" alt="Rote Nägel mit weisser 3D-Blüte und Gold"></figure>
+          <span class="sig-card__n">04</span><h3>Rote Blüte</h3><p>Rot · 3D-Blüte</p>
+        </article>
+        <article class="sig-card">
+          <figure class="arch sig-card__img"><img src="assets/img/g-067-sm.jpg" width="720" height="540" loading="lazy" alt="Latte-Beige Nägel mit braunen Herzen"></figure>
+          <span class="sig-card__n">05</span><h3>Latte-Herzen</h3><p>Beige · Schokobraun</p>
+        </article>
+        <article class="sig-card">
+          <figure class="arch sig-card__img"><img src="assets/img/g-000-sm.jpg" width="720" height="672" loading="lazy" alt="Schwarze Nägel mit Rosen-Ornamenten"></figure>
+          <span class="sig-card__n">06</span><h3>Mitternachtsrose</h3><p>Schwarz · Ornament</p>
+        </article>
+        <article class="sig-card">
+          <figure class="arch sig-card__img"><img src="assets/img/g-098-sm.jpg" width="720" height="540" loading="lazy" alt="Grüne Cat-Eye Stiletto-Nägel"></figure>
+          <span class="sig-card__n">07</span><h3>Smaragd-Cat-Eye</h3><p>Cat-Eye · Stiletto</p>
+        </article>
+        <article class="sig-card">
+          <figure class="arch sig-card__img"><img src="assets/img/g-036-sm.jpg" width="465" height="720" loading="lazy" alt="Nude Nägel mit Perlmutt-French"></figure>
+          <span class="sig-card__n">08</span><h3>Zartes French</h3><p>French · Perlmutt</p>
+        </article>
+      </div>
+
+      <div class="container">
+        <div class="sig-progress" aria-hidden="true"><span id="sigBar"></span></div>
+      </div>
+    </section>
+
+    <!-- ============ GALERIE (ivory) ============ -->
+    <section class="section gallery" id="galerie">
+      <div class="container">
+        <div class="section-head section-head--row reveal">
+          <div>
+            <p class="eyebrow">Galerie</p>
+            <h2 class="h2">Echte Arbeiten <em>aus dem Studio.</em></h2>
+          </div>
+          <div class="filters" role="group" aria-label="Galerie filtern">
+            <span class="filters__pill" id="filterPill" aria-hidden="true"></span>
+            <button type="button" class="filter is-active" data-filter="all" aria-pressed="true">Alle</button>
+            <button type="button" class="filter" data-filter="nude" aria-pressed="false">Nude &amp; French</button>
+            <button type="button" class="filter" data-filter="art" aria-pressed="false">Nail Art</button>
+            <button type="button" class="filter" data-filter="colour" aria-pressed="false">Farbe &amp; Glanz</button>
+          </div>
+        </div>
+
+        <div class="g-grid" id="gallery">
+        <figure class="g-item reveal" data-cat="nude"><button type="button" class="g-btn" data-full="assets/img/g-029.jpg" aria-label="Nude &amp; French – Bild 1 vergrössern"><img src="assets/img/g-029-sm.jpg" width="682" height="720" loading="lazy" decoding="async" alt="Nude &amp; French – Arbeit von CC Nails"></button></figure>
+        <figure class="g-item reveal" data-cat="art"><button type="button" class="g-btn" data-full="assets/img/g-000.jpg" aria-label="Nail Art – Bild 2 vergrössern"><img src="assets/img/g-000-sm.jpg" width="720" height="672" loading="lazy" decoding="async" alt="Nail Art – Arbeit von CC Nails"></button></figure>
+        <figure class="g-item reveal" data-cat="colour"><button type="button" class="g-btn" data-full="assets/img/g-020.jpg" aria-label="Farbe &amp; Glanz – Bild 3 vergrössern"><img src="assets/img/g-020-sm.jpg" width="540" height="720" loading="lazy" decoding="async" alt="Farbe &amp; Glanz – Arbeit von CC Nails"></button></figure>
+        <figure class="g-item reveal" data-cat="nude"><button type="button" class="g-btn" data-full="assets/img/g-031.jpg" aria-label="Nude &amp; French – Bild 4 vergrössern"><img src="assets/img/g-031-sm.jpg" width="540" height="720" loading="lazy" decoding="async" alt="Nude &amp; French – Arbeit von CC Nails"></button></figure>
+        <figure class="g-item reveal" data-cat="art"><button type="button" class="g-btn" data-full="assets/img/g-001.jpg" aria-label="Nail Art – Bild 5 vergrössern"><img src="assets/img/g-001-sm.jpg" width="527" height="720" loading="lazy" decoding="async" alt="Nail Art – Arbeit von CC Nails"></button></figure>
+        <figure class="g-item reveal" data-cat="colour"><button type="button" class="g-btn" data-full="assets/img/g-060.jpg" aria-label="Farbe &amp; Glanz – Bild 6 vergrössern"><img src="assets/img/g-060-sm.jpg" width="500" height="720" loading="lazy" decoding="async" alt="Farbe &amp; Glanz – Arbeit von CC Nails"></button></figure>
+        <figure class="g-item reveal" data-cat="nude"><button type="button" class="g-btn" data-full="assets/img/g-036.jpg" aria-label="Nude &amp; French – Bild 7 vergrössern"><img src="assets/img/g-036-sm.jpg" width="465" height="720" loading="lazy" decoding="async" alt="Nude &amp; French – Arbeit von CC Nails"></button></figure>
+        <figure class="g-item reveal" data-cat="art"><button type="button" class="g-btn" data-full="assets/img/g-022.jpg" aria-label="Nail Art – Bild 8 vergrössern"><img src="assets/img/g-022-sm.jpg" width="540" height="720" loading="lazy" decoding="async" alt="Nail Art – Arbeit von CC Nails"></button></figure>
+        <figure class="g-item reveal" data-cat="colour"><button type="button" class="g-btn" data-full="assets/img/g-075.jpg" aria-label="Farbe &amp; Glanz – Bild 9 vergrössern"><img src="assets/img/g-075-sm.jpg" width="540" height="720" loading="lazy" decoding="async" alt="Farbe &amp; Glanz – Arbeit von CC Nails"></button></figure>
+        <figure class="g-item reveal" data-cat="nude"><button type="button" class="g-btn" data-full="assets/img/g-021.jpg" aria-label="Nude &amp; French – Bild 10 vergrössern"><img src="assets/img/g-021-sm.jpg" width="540" height="720" loading="lazy" decoding="async" alt="Nude &amp; French – Arbeit von CC Nails"></button></figure>
+        <figure class="g-item reveal" data-cat="art"><button type="button" class="g-btn" data-full="assets/img/g-039.jpg" aria-label="Nail Art – Bild 11 vergrössern"><img src="assets/img/g-039-sm.jpg" width="540" height="720" loading="lazy" decoding="async" alt="Nail Art – Arbeit von CC Nails"></button></figure>
+        <figure class="g-item reveal" data-cat="colour"><button type="button" class="g-btn" data-full="assets/img/g-074.jpg" aria-label="Farbe &amp; Glanz – Bild 12 vergrössern"><img src="assets/img/g-074-sm.jpg" width="540" height="720" loading="lazy" decoding="async" alt="Farbe &amp; Glanz – Arbeit von CC Nails"></button></figure>
+        <figure class="g-item reveal" data-cat="nude"><button type="button" class="g-btn" data-full="assets/img/g-032.jpg" aria-label="Nude &amp; French – Bild 13 vergrössern"><img src="assets/img/g-032-sm.jpg" width="540" height="720" loading="lazy" decoding="async" alt="Nude &amp; French – Arbeit von CC Nails"></button></figure>
+        <figure class="g-item reveal" data-cat="art"><button type="button" class="g-btn" data-full="assets/img/g-042.jpg" aria-label="Nail Art – Bild 14 vergrössern"><img src="assets/img/g-042-sm.jpg" width="720" height="584" loading="lazy" decoding="async" alt="Nail Art – Arbeit von CC Nails"></button></figure>
+        <figure class="g-item reveal" data-cat="colour"><button type="button" class="g-btn" data-full="assets/img/g-098.jpg" aria-label="Farbe &amp; Glanz – Bild 15 vergrössern"><img src="assets/img/g-098-sm.jpg" width="720" height="540" loading="lazy" decoding="async" alt="Farbe &amp; Glanz – Arbeit von CC Nails"></button></figure>
+        <figure class="g-item reveal" data-cat="nude"><button type="button" class="g-btn" data-full="assets/img/g-067.jpg" aria-label="Nude &amp; French – Bild 16 vergrössern"><img src="assets/img/g-067-sm.jpg" width="720" height="540" loading="lazy" decoding="async" alt="Nude &amp; French – Arbeit von CC Nails"></button></figure>
+        <figure class="g-item reveal" data-cat="art"><button type="button" class="g-btn" data-full="assets/img/g-034.jpg" aria-label="Nail Art – Bild 17 vergrössern"><img src="assets/img/g-034-sm.jpg" width="540" height="720" loading="lazy" decoding="async" alt="Nail Art – Arbeit von CC Nails"></button></figure>
+        <figure class="g-item reveal" data-cat="colour"><button type="button" class="g-btn" data-full="assets/img/g-097.jpg" aria-label="Farbe &amp; Glanz – Bild 18 vergrössern"><img src="assets/img/g-097-sm.jpg" width="540" height="720" loading="lazy" decoding="async" alt="Farbe &amp; Glanz – Arbeit von CC Nails"></button></figure>
+        <figure class="g-item reveal" data-cat="nude"><button type="button" class="g-btn" data-full="assets/img/g-009.jpg" aria-label="Nude &amp; French – Bild 19 vergrössern"><img src="assets/img/g-009-sm.jpg" width="720" height="554" loading="lazy" decoding="async" alt="Nude &amp; French – Arbeit von CC Nails"></button></figure>
+        <figure class="g-item reveal" data-cat="art"><button type="button" class="g-btn" data-full="assets/img/g-101.jpg" aria-label="Nail Art – Bild 20 vergrössern"><img src="assets/img/g-101-sm.jpg" width="540" height="720" loading="lazy" decoding="async" alt="Nail Art – Arbeit von CC Nails"></button></figure>
+        <figure class="g-item reveal" data-cat="colour"><button type="button" class="g-btn" data-full="assets/img/g-018.jpg" aria-label="Farbe &amp; Glanz – Bild 21 vergrössern"><img src="assets/img/g-018-sm.jpg" width="522" height="720" loading="lazy" decoding="async" alt="Farbe &amp; Glanz – Arbeit von CC Nails"></button></figure>
+        <figure class="g-item reveal" data-cat="nude"><button type="button" class="g-btn" data-full="assets/img/g-007.jpg" aria-label="Nude &amp; French – Bild 22 vergrössern"><img src="assets/img/g-007-sm.jpg" width="512" height="720" loading="lazy" decoding="async" alt="Nude &amp; French – Arbeit von CC Nails"></button></figure>
+        <figure class="g-item reveal" data-cat="art"><button type="button" class="g-btn" data-full="assets/img/g-100.jpg" aria-label="Nail Art – Bild 23 vergrössern"><img src="assets/img/g-100-sm.jpg" width="540" height="720" loading="lazy" decoding="async" alt="Nail Art – Arbeit von CC Nails"></button></figure>
+        <figure class="g-item reveal" data-cat="colour"><button type="button" class="g-btn" data-full="assets/img/g-035.jpg" aria-label="Farbe &amp; Glanz – Bild 24 vergrössern"><img src="assets/img/g-035-sm.jpg" width="540" height="720" loading="lazy" decoding="async" alt="Farbe &amp; Glanz – Arbeit von CC Nails"></button></figure>
+        <figure class="g-item reveal" data-cat="nude"><button type="button" class="g-btn" data-full="assets/img/g-038.jpg" aria-label="Nude &amp; French – Bild 25 vergrössern"><img src="assets/img/g-038-sm.jpg" width="720" height="470" loading="lazy" decoding="async" alt="Nude &amp; French – Arbeit von CC Nails"></button></figure>
+        <figure class="g-item reveal" data-cat="art"><button type="button" class="g-btn" data-full="assets/img/g-086.jpg" aria-label="Nail Art – Bild 26 vergrössern"><img src="assets/img/g-086-sm.jpg" width="540" height="720" loading="lazy" decoding="async" alt="Nail Art – Arbeit von CC Nails"></button></figure>
+        <figure class="g-item reveal" data-cat="colour"><button type="button" class="g-btn" data-full="assets/img/g-076.jpg" aria-label="Farbe &amp; Glanz – Bild 27 vergrössern"><img src="assets/img/g-076-sm.jpg" width="540" height="720" loading="lazy" decoding="async" alt="Farbe &amp; Glanz – Arbeit von CC Nails"></button></figure>
+        <figure class="g-item reveal" data-cat="nude"><button type="button" class="g-btn" data-full="assets/img/g-083.jpg" aria-label="Nude &amp; French – Bild 28 vergrössern"><img src="assets/img/g-083-sm.jpg" width="540" height="720" loading="lazy" decoding="async" alt="Nude &amp; French – Arbeit von CC Nails"></button></figure>
+        <figure class="g-item reveal" data-cat="art"><button type="button" class="g-btn" data-full="assets/img/g-063.jpg" aria-label="Nail Art – Bild 29 vergrössern"><img src="assets/img/g-063-sm.jpg" width="540" height="720" loading="lazy" decoding="async" alt="Nail Art – Arbeit von CC Nails"></button></figure>
+        <figure class="g-item reveal" data-cat="colour"><button type="button" class="g-btn" data-full="assets/img/g-057.jpg" aria-label="Farbe &amp; Glanz – Bild 30 vergrössern"><img src="assets/img/g-057-sm.jpg" width="540" height="720" loading="lazy" decoding="async" alt="Farbe &amp; Glanz – Arbeit von CC Nails"></button></figure>
+        <figure class="g-item reveal" data-cat="nude"><button type="button" class="g-btn" data-full="assets/img/g-049.jpg" aria-label="Nude &amp; French – Bild 31 vergrössern"><img src="assets/img/g-049-sm.jpg" width="720" height="670" loading="lazy" decoding="async" alt="Nude &amp; French – Arbeit von CC Nails"></button></figure>
+        <figure class="g-item reveal" data-cat="art"><button type="button" class="g-btn" data-full="assets/img/g-015.jpg" aria-label="Nail Art – Bild 32 vergrössern"><img src="assets/img/g-015-sm.jpg" width="626" height="720" loading="lazy" decoding="async" alt="Nail Art – Arbeit von CC Nails"></button></figure>
+        <figure class="g-item reveal" data-cat="nude"><button type="button" class="g-btn" data-full="assets/img/g-103.jpg" aria-label="Nude &amp; French – Bild 33 vergrössern"><img src="assets/img/g-103-sm.jpg" width="540" height="720" loading="lazy" decoding="async" alt="Nude &amp; French – Arbeit von CC Nails"></button></figure>
+        <figure class="g-item reveal" data-cat="art"><button type="button" class="g-btn" data-full="assets/img/g-044.jpg" aria-label="Nail Art – Bild 34 vergrössern"><img src="assets/img/g-044-sm.jpg" width="579" height="720" loading="lazy" decoding="async" alt="Nail Art – Arbeit von CC Nails"></button></figure>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ QUOTE (champagne gold) ============ -->
+    <section class="band gold-surface" aria-label="Unser Versprechen">
+      <div class="band__slats" aria-hidden="true"></div>
+      <div class="container band__inner reveal">
+        <span class="band__star" aria-hidden="true">✦</span>
+        <blockquote>
+          <p>„Schöne Nägel sind kein Luxus – <em class="shimmer">sie sind ein Gefühl.</em>“</p>
+        </blockquote>
+        <a class="btn btn--dark magnetic" href="#kontakt"><span>Jetzt Termin sichern</span></a>
+      </div>
+    </section>
+
+    <!-- ============ KONTAKT (espresso) ============ -->
+    <section class="contact" id="kontakt">
+      <div class="contact__glow" aria-hidden="true"></div>
+      <div class="container contact__grid">
+        <div class="contact__copy">
+          <p class="eyebrow eyebrow--gold reveal">Kontakt &amp; Termin</p>
+          <h2 class="h2 h2--light reveal">Wir freuen uns<br><em class="shimmer shimmer--gold">auf Ihren Besuch.</em></h2>
+          <p class="contact__lead reveal">Am schnellsten erreichen Sie uns per WhatsApp oder Telefon. Wir finden gemeinsam einen Termin, der zu Ihnen passt.</p>
+
+          <div class="contact__actions reveal">
+            <a class="btn btn--gold magnetic" href="https://wa.me/41783246299" target="_blank" rel="noopener"><span>WhatsApp schreiben</span></a>
+            <a class="btn btn--ghost magnetic" href="tel:+41715544211"><span>Anrufen</span></a>
+          </div>
+
+          <dl class="details reveal">
+            <div>
+              <dt>Adresse</dt>
+              <dd>Hauptstraße 49B<br>8280 Kreuzlingen</dd>
+              <dd><a class="link-gold" href="https://www.google.com/maps/search/?api=1&amp;query=Hauptstra%C3%9Fe+49B%2C+8280+Kreuzlingen" target="_blank" rel="noopener">Route planen →</a></dd>
+            </div>
+            <div>
+              <dt>Öffnungszeiten <span class="open-state" id="openState" hidden></span></dt>
+              <dd class="hours" data-days="1,2,3,4,5"><span>Mo – Fr</span><span>09:00 – 19:00</span></dd>
+              <dd class="hours" data-days="6"><span>Samstag</span><span>09:00 – 18:00</span></dd>
+              <dd class="hours hours--muted" data-days="0"><span>Sonntag</span><span>Geschlossen</span></dd>
+            </div>
+            <div>
+              <dt>Telefon</dt>
+              <dd><a href="tel:+41715544211">+41 71 554 42 11</a></dd>
+              <dt>WhatsApp</dt>
+              <dd><a href="https://wa.me/41783246299" target="_blank" rel="noopener">+41 78 324 62 99</a></dd>
+            </div>
+            <div>
+              <dt>Online</dt>
+              <dd><a href="https://www.instagram.com/cc-nails/" target="_blank" rel="noopener">Instagram @cc-nails</a></dd>
+              <dd><a href="https://www.cc-nails.ch">www.cc-nails.ch</a></dd>
+            </div>
+          </dl>
+        </div>
+
+        <div class="contact__media">
+          <div class="contact__slats" aria-hidden="true"></div>
+          <figure class="arch contact__arch reveal-img">
+            <img src="assets/img/g-021.jpg" width="1200" height="1600" loading="lazy" alt="Mandelnägel in zartem Nude mit weissem Ombré">
+          </figure>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- ============ FOOTER (champagne gold) ============ -->
+  <footer class="footer gold-surface">
+    <div class="container footer__inner">
+      <div class="footer__row">
+        <p class="footer__tag">Wir kümmern uns um die Schönheit<br>Ihrer Nägel und Füße.</p>
+        <nav class="footer__links" aria-label="Footer">
+          <a href="#studio">Studio</a><a href="#leistungen">Leistungen</a><a href="#galerie">Galerie</a><a href="#kontakt">Kontakt</a>
+        </nav>
+      </div>
+      <p class="footer__word" aria-hidden="true">CC <em>Nails</em></p>
+      <p class="footer__meta">Copyright © 2026 Hoangcaster</p>
+    </div>
+  </footer>
+
+  <!-- ============ LIGHTBOX ============ -->
+  <div class="lightbox" id="lightbox" role="dialog" aria-modal="true" aria-label="Bildansicht" hidden>
+    <button class="lb__close" id="lbClose" aria-label="Schliessen">
+      <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 5l14 14M19 5L5 19"/></svg>
+    </button>
+    <button class="lb__nav lb__prev" id="lbPrev" aria-label="Vorheriges Bild">
+      <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M15 4l-8 8 8 8"/></svg>
+    </button>
+    <figure class="lb__figure">
+      <img id="lbImg" src="" alt="">
+      <figcaption id="lbCap"></figcaption>
+    </figure>
+    <button class="lb__nav lb__next" id="lbNext" aria-label="Nächstes Bild">
+      <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M9 4l8 8-8 8"/></svg>
+    </button>
+  </div>
+
+  <script src="js/main.js" defer></script>
+</body>
+</html>
