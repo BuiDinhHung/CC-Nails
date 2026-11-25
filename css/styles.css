@@ -146,6 +146,8 @@ p { margin: 0 0 1.1em; }
 .logo { display: inline-flex; align-items: baseline; gap: 8px; line-height: 1; color: var(--espresso); transition: color .5s; }
 .logo__mark { font-family: var(--serif); font-size: 30px; font-weight: 600; letter-spacing: .06em; }
 .logo__word { font-family: var(--serif); font-style: italic; font-size: 26px; }
+.logo__img { display: block; height: 64px; width: auto; filter: drop-shadow(0 1px 1.5px rgba(48, 34, 25, .55)) drop-shadow(0 4px 10px rgba(48, 34, 25, .25)); transition: height .5s var(--ease); }
+.nav.is-scrolled .logo__img { height: 50px; filter: none; }
 
 /* ---------- Architectural motifs ---------- */
 .arch { position: relative; overflow: hidden; border-radius: 999px 999px 0 0; background: var(--espresso-soft); }
@@ -171,6 +173,7 @@ p { margin: 0 0 1.1em; }
   position: absolute; inset: 0; display: grid; place-content: center; justify-items: center; gap: 14px;
   color: var(--espresso); transition: opacity .5s var(--ease);
 }
+.intro__logo { width: clamp(150px, 22vw, 240px); height: auto; filter: drop-shadow(0 2px 2px rgba(48, 34, 25, .5)) drop-shadow(0 10px 24px rgba(48, 34, 25, .35)); animation: introIn 1s var(--ease-out) both; }
 .intro__cc { font-family: var(--serif); font-size: clamp(72px, 12vw, 128px); font-weight: 500; letter-spacing: .08em; line-height: .9; animation: introIn 1s var(--ease-out) both; }
 .intro__line { width: 140px; height: 1px; background: var(--espresso); transform-origin: left; animation: introLine 1s var(--ease-io) .25s both; }
 .intro__word { font-size: 11px; font-weight: 600; letter-spacing: .4em; text-transform: uppercase; animation: introIn 1s var(--ease-out) .45s both; }
@@ -286,6 +289,7 @@ p { margin: 0 0 1.1em; }
 }
 .hero__badge svg { position: absolute; inset: 0; width: 100%; height: 100%; animation: spin 22s linear infinite; }
 .hero__badge text { font-family: var(--sans); font-size: 13.5px; font-weight: 600; letter-spacing: .26em; fill: var(--gold-light); }
+.hero__badge-logo { position: relative; width: 46%; height: auto; }
 .hero__badge span { font-family: var(--serif); font-size: 30px; font-weight: 500; color: var(--ivory); letter-spacing: .06em; }
 @keyframes spin { to { transform: rotate(360deg); } }
 .hero__arc { position: absolute; right: 2%; top: -3%; width: 30%; color: var(--espresso); opacity: .45; }
@@ -500,6 +504,7 @@ p { margin: 0 0 1.1em; }
 .footer__links a { font-size: 12px; font-weight: 600; letter-spacing: .2em; text-transform: uppercase; border-bottom: 1px solid transparent; transition: border-color .3s; }
 .footer__links a:hover { border-color: currentColor; }
 .footer__word { margin: 8px 0 0; font-family: var(--serif); font-weight: 500; font-size: clamp(88px, 21vw, 300px); line-height: .8; letter-spacing: -.02em; color: var(--espresso); white-space: nowrap; text-align: center; }
+.footer__word img { display: block; margin: 0 auto 28px; width: clamp(180px, 30vw, 380px); height: auto; filter: drop-shadow(0 2px 2px rgba(48, 34, 25, .5)) drop-shadow(0 14px 30px rgba(48, 34, 25, .35)); }
 .footer__word em { font-weight: 400; color: var(--ivory); }
 .footer__meta { margin: 0; padding-top: 22px; border-top: 1px solid var(--line-gold); font-size: 12px; font-weight: 500; letter-spacing: .08em; text-align: center; }
 

@@ -9,7 +9,8 @@
   <meta property="og:title" content="CC Nails · Nagelstudio Kreuzlingen">
   <meta property="og:description" content="Wir kümmern uns um die Schönheit Ihrer Nägel und Füße.">
   <meta property="og:image" content="assets/img/hero.jpg">
-  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='32' fill='%23B88A4A'/%3E%3Ctext x='32' y='41' font-family='Georgia,serif' font-size='26' text-anchor='middle' fill='%23302219'%3ECC%3C/text%3E%3C/svg%3E">
+  <link rel="icon" type="image/png" href="assets/img/favicon-64.png">
+  <link rel="apple-touch-icon" href="assets/img/favicon-180.png">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400;1,500&family=Manrope:wght@300;400;500;600&display=swap" rel="stylesheet">
@@ -25,7 +26,7 @@
     <div class="intro__panel intro__panel--a"></div>
     <div class="intro__panel intro__panel--b"></div>
     <div class="intro__mark">
-      <span class="intro__cc">CC</span>
+      <img class="intro__logo" src="assets/img/logo.png" width="600" height="579" alt="">
       <span class="intro__line"></span>
       <span class="intro__word">Nails · Kreuzlingen</span>
     </div>
@@ -37,7 +38,7 @@
   <header class="nav" id="nav">
     <div class="nav__inner">
       <a href="#top" class="logo" aria-label="CC Nails – Startseite">
-        <span class="logo__mark">CC</span><span class="logo__word">Nails</span>
+        <img class="logo__img" src="assets/img/logo.png" width="600" height="579" alt="CC Nails">
       </a>
       <nav class="nav__links" aria-label="Hauptnavigation">
         <a href="#studio">Studio</a>
@@ -92,7 +93,7 @@
         <div class="hero__visual enter enter--fade" style="--d:.25s" id="heroVisual">
           <div class="hero__slats" data-depth="10" aria-hidden="true"></div>
           <figure class="arch hero__arch" data-depth="20">
-            <img src="assets/img/hero.jpg" width="1515" height="1600" alt="Mandelförmige Nägel in Nude mit feiner weisser Linien-Malerei">
+            <img src="assets/img/hero.jpg" width="736" height="1309" alt="Mandelnägel in Bordeaux mit goldenen Wellen-Akzenten">
           </figure>
           <figure class="hero__orb" data-depth="38">
             <img src="assets/img/bronze-sm.jpg" width="540" height="720" alt="Kupfer-Bronze Nägel mit Glitzer-Akzent">
@@ -102,7 +103,7 @@
               <defs><path id="ring" d="M100,100 m-74,0 a74,74 0 1,1 148,0 a74,74 0 1,1 -148,0"/></defs>
               <text><textPath href="#ring">NAIL ART · MANIKÜRE · PEDIKÜRE · WIMPERN ·</textPath></text>
             </svg>
-            <span>CC</span>
+            <img class="hero__badge-logo" src="assets/img/logo.png" width="600" height="579" alt="">
           </div>
           <svg class="hero__arc" viewBox="0 0 200 200" aria-hidden="true"><path d="M10 190 V100 A90 90 0 0 1 190 100 V190" fill="none" stroke="currentColor" stroke-width=".7"/></svg>
         </div>
@@ -118,8 +119,8 @@
     <!-- ============ MARQUEE (espresso) ============ -->
     <div class="marquee" aria-hidden="true">
       <div class="marquee__track">
-        <span>Maniküre</span><b>✦</b><span><em>Gel &amp; Modellage</em></span><b>✦</b><span>Nail Art</span><b>✦</b><span><em>Pediküre</em></span><b>✦</b><span>Wimpern</span><b>✦</b>
-        <span>Maniküre</span><b>✦</b><span><em>Gel &amp; Modellage</em></span><b>✦</b><span>Nail Art</span><b>✦</b><span><em>Pediküre</em></span><b>✦</b><span>Wimpern</span><b>✦</b>
+        <span>Wimpern</span><b>✦</b><span><em>Hände mit Pulver oder Gel-System</em></span><b>✦</b><span>Füsse mit Pulver oder Gel-System</span><b>✦</b><span><em>Nail Art</em></span><b>✦</b><span>Classic Pediküre</span><b>✦</b><span><em>Classic Maniküre</em></span><b>✦</b>
+        <span>Wimpern</span><b>✦</b><span><em>Hände mit Pulver oder Gel-System</em></span><b>✦</b><span>Füsse mit Pulver oder Gel-System</span><b>✦</b><span><em>Nail Art</em></span><b>✦</b><span>Classic Pediküre</span><b>✦</b><span><em>Classic Maniküre</em></span><b>✦</b>
       </div>
     </div>
 
@@ -159,40 +160,48 @@
 
         <div class="services__grid">
           <ol class="services__list" id="serviceList">
-            <li class="service reveal" data-img="assets/img/french.jpg">
+            <li class="service reveal" data-img="assets/img/manicure.jpg">
               <span class="service__n">01</span>
               <div class="service__body">
-                <h3>Maniküre</h3>
+                <h3>Classic Maniküre</h3>
                 <p>Formen, Nagelhautpflege und ein makelloser Abschluss – die klassische Pflege für gepflegte Hände.</p>
               </div>
-              <img class="service__thumb" src="assets/img/french-sm.jpg" alt="" loading="lazy">
+              <img class="service__thumb" src="assets/img/manicure-sm.jpg" alt="" loading="lazy">
             </li>
-            <li class="service reveal" data-img="assets/img/pearl.jpg">
+            <li class="service reveal" data-img="assets/img/pedicure.jpg">
               <span class="service__n">02</span>
               <div class="service__body">
-                <h3>Gel &amp; Modellage</h3>
+                <h3>Classic Pediküre</h3>
+                <p>Gründliche Pflege und Farbe für schöne Füße – ein Moment zum Zurücklehnen.</p>
+              </div>
+              <img class="service__thumb" src="assets/img/pedicure-sm.jpg" alt="" loading="lazy">
+            </li>
+            <li class="service reveal" data-img="assets/img/pearl.jpg">
+              <span class="service__n">03</span>
+              <div class="service__body">
+                <h3>Hände mit Pulver oder Gel-System</h3>
                 <p>Verlängerung oder Verstärkung mit Gel – natürlich wirkend, belastbar und perfekt in Form gebracht.</p>
               </div>
               <img class="service__thumb" src="assets/img/pearl-sm.jpg" alt="" loading="lazy">
             </li>
+            <li class="service reveal" data-img="assets/img/pedicure.jpg">
+              <span class="service__n">04</span>
+              <div class="service__body">
+                <h3>Füsse mit Pulver oder Gel-System</h3>
+                <p>Langanhaltender Glanz für die Füße – mit Pulver oder Gel aufgetragen, robust und gepflegt über Wochen.</p>
+              </div>
+              <img class="service__thumb" src="assets/img/pedicure-sm.jpg" alt="" loading="lazy">
+            </li>
             <li class="service reveal" data-img="assets/img/art-black.jpg">
-              <span class="service__n">03</span>
+              <span class="service__n">05</span>
               <div class="service__body">
                 <h3>Nail Art</h3>
                 <p>Handgemalte Blüten und Linien, Chrome, Cat-Eye und Ombré – individuell für Sie gestaltet.</p>
               </div>
               <img class="service__thumb" src="assets/img/art-black-sm.jpg" alt="" loading="lazy">
             </li>
-            <li class="service reveal" data-img="assets/img/pedicure.jpg">
-              <span class="service__n">04</span>
-              <div class="service__body">
-                <h3>Pediküre</h3>
-                <p>Gründliche Pflege und Farbe für schöne Füße – ein Moment zum Zurücklehnen.</p>
-              </div>
-              <img class="service__thumb" src="assets/img/pedicure-sm.jpg" alt="" loading="lazy">
-            </li>
             <li class="service reveal" data-img="assets/img/lashes.jpg">
-              <span class="service__n">05</span>
+              <span class="service__n">06</span>
               <div class="service__body">
                 <h3>Wimpern</h3>
                 <p>Wimpernverlängerung für einen natürlichen bis ausdrucksstarken Blick.</p>
@@ -203,7 +212,7 @@
 
           <div class="services__preview" aria-hidden="true">
             <figure class="arch services__arch">
-              <img id="servicePreview" src="assets/img/french.jpg" alt="">
+              <img id="servicePreview" src="assets/img/manicure.jpg" alt="">
             </figure>
             <span class="services__count" id="serviceCount">01</span>
           </div>
@@ -404,7 +413,7 @@
           <a href="#studio">Studio</a><a href="#leistungen">Leistungen</a><a href="#galerie">Galerie</a><a href="#kontakt">Kontakt</a>
         </nav>
       </div>
-      <p class="footer__word" aria-hidden="true">CC <em>Nails</em></p>
+      <p class="footer__word" aria-hidden="true"><img src="assets/img/logo.png" width="600" height="579" alt="" loading="lazy"></p>
       <p class="footer__meta">Copyright © 2026 Hoangcaster</p>
     </div>
   </footer>
