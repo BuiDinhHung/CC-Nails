@@ -15,7 +15,7 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400;1,500&family=Manrope:wght@300;400;500;600&display=swap" rel="stylesheet">
   <link rel="preload" as="image" href="assets/img/hero.jpg">
-  <link rel="stylesheet" href="css/styles.css?v=20261126b">
+  <link rel="stylesheet" href="css/styles.css?v=20261126c">
 </head>
 <body>
 
@@ -47,7 +47,10 @@
         <a href="#galerie">Galerie</a>
         <a href="#kontakt">Kontakt</a>
       </nav>
-      <a class="btn btn--nav magnetic" href="https://wa.me/41783246299" target="_blank" rel="noopener"><span>Termin buchen</span></a>
+      <div class="nav__cta">
+        <a class="btn btn--nav magnetic" href="https://wa.me/41783246299" target="_blank" rel="noopener"><span>WhatsApp</span></a>
+        <a class="btn btn--nav magnetic" href="tel:+41715544211"><span>Anrufen</span></a>
+      </div>
       <button class="nav__toggle" id="navToggle" aria-label="Menü öffnen" aria-expanded="false" aria-controls="mobileMenu">
         <span></span><span></span>
       </button>
@@ -64,6 +67,8 @@
     </nav>
     <div class="mobile-menu__foot">
       <a class="btn btn--dark" href="https://wa.me/41783246299" target="_blank" rel="noopener"><span>Termin via WhatsApp</span></a>
+      <a class="btn btn--outline-dark" href="tel:+41715544211"><span>Anrufen</span></a>
+      <p>WhatsApp +41 78 324 62 99 · Tel. +41 71 554 42 11</p>
       <p>Hauptstraße 49B · 8280 Kreuzlingen</p>
     </div>
   </div>
@@ -86,6 +91,7 @@
           <p class="hero__lead enter" style="--d:.7s">Wir kümmern uns um die Schönheit Ihrer Nägel und Füße – mit ruhiger Hand, einem Auge für feine Details und Zeit nur für Sie.</p>
           <div class="hero__actions enter" style="--d:.85s">
             <a class="btn btn--dark magnetic" href="https://wa.me/41783246299" target="_blank" rel="noopener"><span>Termin via WhatsApp</span></a>
+            <a class="btn btn--outline-dark magnetic" href="tel:+41715544211"><span>Termin per Telefon</span></a>
             <a class="btn btn--outline-dark magnetic" href="#signature"><span>Unsere Favoriten</span></a>
           </div>
         </div>
@@ -112,7 +118,7 @@
       <div class="container hero__bar enter" style="--d:1s">
         <div><span class="hero__bar-k">Adresse</span><span>Hauptstraße 49B, 8280 Kreuzlingen</span></div>
         <div><span class="hero__bar-k">Öffnungszeiten</span><span>Mo–Fr 09–19 · Sa 09–18 Uhr</span></div>
-        <div><span class="hero__bar-k">Telefon</span><a href="tel:+41715544211">+41 71 554 42 11</a></div>
+        <div><span class="hero__bar-k">Telefon &amp; WhatsApp</span><span class="hero__bar-phones"><a href="tel:+41715544211">Tel. +41 71 554 42 11</a><a href="https://wa.me/41783246299" target="_blank" rel="noopener">WhatsApp +41 78 324 62 99</a></span></div>
       </div>
     </section>
 
@@ -220,7 +226,10 @@
 
         <div class="services__foot reveal">
           <p>Preise und Dauer der Behandlungen besprechen wir gerne <em>persönlich mit Ihnen.</em></p>
-          <a class="btn btn--gold magnetic" href="https://wa.me/41783246299" target="_blank" rel="noopener"><span>Beratung anfragen</span></a>
+          <div class="services__cta">
+            <a class="btn btn--gold magnetic" href="https://wa.me/41783246299" target="_blank" rel="noopener"><span>Via WhatsApp</span></a>
+            <a class="btn btn--ghost magnetic" href="tel:+41715544211"><span>Anrufen</span></a>
+          </div>
         </div>
       </div>
     </section>
@@ -435,6 +444,6 @@
     </button>
   </div>
 
-  <script src="js/main.js?v=20261126b" defer></script>
+  <script src="js/main.js?v=20261126c" defer></script>
 </body>
 </html>

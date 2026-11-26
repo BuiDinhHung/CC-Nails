@@ -130,6 +130,7 @@ p { margin: 0 0 1.1em; }
 .btn--ghost:hover { border-color: var(--gold-light); color: var(--gold-light); }
 .btn--nav { min-height: 44px; padding: 0 22px; font-size: 11px; color: var(--espresso); border-color: rgba(48, 34, 25, .5); }
 .btn--nav:hover { background: var(--espresso); color: var(--ivory); }
+.nav__cta { display: flex; gap: 10px; }
 
 .link-gold { color: var(--gold-light); font-size: 13px; letter-spacing: .08em; border-bottom: 1px solid transparent; transition: border-color .3s; }
 .link-gold:hover { border-color: currentColor; }
@@ -297,6 +298,7 @@ p { margin: 0 0 1.1em; }
 .hero__bar { position: relative; display: grid; grid-template-columns: repeat(3, 1fr); margin-top: clamp(56px, 8vw, 96px); border-top: 1px solid var(--line-gold); }
 .hero__bar > div { padding: 26px 0 34px; display: grid; gap: 4px; font-size: 14px; font-weight: 500; }
 .hero__bar > div + div { padding-left: 32px; border-left: 1px solid var(--line-gold); }
+.hero__bar-phones { display: grid; gap: 2px; }
 .hero__bar-k { font-size: 10.5px; font-weight: 700; letter-spacing: .26em; text-transform: uppercase; color: var(--ivory); }
 
 /* Entrance — paused until the curtain lifts */
@@ -373,6 +375,7 @@ p { margin: 0 0 1.1em; }
 }
 .services__foot p { margin: 0; font-family: var(--serif); font-size: 23px; }
 .services__foot em { color: var(--gold-light); }
+.services__cta { display: flex; flex-wrap: wrap; gap: 12px; }
 
 /* ---------- Signature carousel (espresso) ---------- */
 .signature { position: relative; overflow: hidden; background: var(--espresso); color: var(--on-dark); padding-block: var(--section-y); }
@@ -515,7 +518,7 @@ p { margin: 0 0 1.1em; }
 /* ---------- Responsive ---------- */
 @media (max-width: 1080px) {
   .nav__links { gap: 22px; }
-  .btn--nav { display: none; }
+  .nav__cta { display: none; }
   .hero__badge { right: 0; }
 }
 
@@ -563,7 +566,8 @@ p { margin: 0 0 1.1em; }
   .btn { padding: 0 22px; }
   .hero__actions .btn, .contact__actions .btn { flex: 1 1 100%; }
   .services__foot { padding: 26px 22px; }
-  .services__foot .btn { width: 100%; }
+  .services__cta { width: 100%; }
+  .services__cta .btn { flex: 1 1 100%; }
   .service h3 { font-size: 28px; }
   .service p { font-size: 14px; }
   .hero__orb { left: 0; }
